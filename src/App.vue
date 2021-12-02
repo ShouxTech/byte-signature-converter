@@ -5,6 +5,8 @@
 	<p>OR</p>
 	<TextBox ref="codeSig" style="margin-bottom: 10px;" placeholder="Code Style Signature" @submitted="convertCodeSignature"/>
 	<TextBox ref="codeMask" placeholder="Code Style Mask" @submitted="convertCodeSignature"/>
+	<br>
+	<iframe style="margin-top: 160px;" width="560" height="315" src="https://www.youtube.com/embed/LE36XH4hkN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </template>
 
 <script>
